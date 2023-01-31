@@ -2,7 +2,6 @@ package com.bridgelabz.brinary_search_tree;
 
 import java.util.HashMap;
 import java.util.Set;
-
 public class HashTable {
 
     static void inputSentence(String userString) {
