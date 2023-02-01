@@ -93,7 +93,7 @@ public class BinarySearchTree {
         tree.insert(65);
         tree.insert(63);
         tree.insert(55);
-        tree.inOrder(); // print inorder traversal of BST
+        tree.inOrder(); 
         System.out.println();
         int size = tree.size(tree.root);
         if (size == 13)
@@ -101,7 +101,7 @@ public class BinarySearchTree {
         else
             System.out.println("Missing some elements");
 
-        // checking data present or not
+        
         if (tree.search(tree.root, 55) != false) {
             System.out.println("55 is present");
         } else
