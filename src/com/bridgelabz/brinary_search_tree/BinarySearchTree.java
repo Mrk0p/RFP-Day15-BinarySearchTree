@@ -64,5 +64,4 @@ public class BinarySearchTree {
         tree.insert(70);
         tree.inOrder();
     }
-
 }
